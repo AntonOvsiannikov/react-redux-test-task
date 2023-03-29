@@ -1,0 +1,15 @@
+.table-row__header {
+  display: flex;
+  font-size: 25px;
+  font-weight: 500;
+
+  &-cell {
+    width: 12.5%;
+    border: 1px solid black;
+    text-align: center;
+    cursor: pointer;
+  }
+  & .select {
+    background: rgb(167, 165, 165);
+  }
+}

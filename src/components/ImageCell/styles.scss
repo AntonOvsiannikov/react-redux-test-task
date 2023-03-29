@@ -1,0 +1,10 @@
+.table-cell {
+  width: 12.5%;
+  border: 1px solid black;
+  text-align:center;
+
+  &__image {
+    width: 100%;
+    height: 100%;
+  }
+}

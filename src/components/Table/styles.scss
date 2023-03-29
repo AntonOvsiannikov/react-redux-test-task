@@ -1,0 +1,9 @@
+@import '../../styles/variables.scss';
+
+.table {
+  background: $color-second;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  max-height: 80vh;
+}

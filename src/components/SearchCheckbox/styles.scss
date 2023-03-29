@@ -1,0 +1,19 @@
+@import '../../styles/variables.scss';
+
+.checkbox {
+  @include font-chakra-petch;
+  
+  color:$color-second;
+  font-size:23px;
+  margin-left: 15px;
+  &-group {
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+    label {
+      margin-left: 5px;
+    }
+  }
+}
