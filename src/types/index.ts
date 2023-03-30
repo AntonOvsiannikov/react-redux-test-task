@@ -1,6 +1,11 @@
 export interface IOptions {
   url:string,
-  method:string
+  method:string,
+}
+export interface IAddOptions {
+  url:string,
+  method:string,
+  body:string
 }
 export interface IProduct {
   brand:string,
@@ -24,4 +29,10 @@ export interface IResponse {
 export interface IHeaderTitle {
   title:string,
   subtitle:string
+}
+export interface IFormValue {
+  title:string,
+  author:string,
+  releaseYear:number,
+  rating:number
 }

@@ -1,0 +1,33 @@
+.field {
+  font-size: 40px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+
+  label {
+    font-weight: 600;
+  }
+  input {
+    padding: 0;
+    outline: none;
+    width: 90%;
+    margin: 10px 0;
+
+    &::placeholder {
+      font-size: 30px;
+    }
+  }
+  .field-error {
+    width: 90%;
+    font-size: 30px;
+    text-align: center;
+    color:red;
+    font-weight: 600;
+  }
+}
+
+.bad {
+  border:1px solid red;
+  color:red;
+  font-weight: 500;
+}
